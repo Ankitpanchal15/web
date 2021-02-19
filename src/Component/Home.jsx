@@ -6,7 +6,6 @@ import About from "./About";
 import Hero from "./Hero";
 
 
-
 const Home = () => {
     return (
         <>
@@ -21,9 +20,9 @@ const Home = () => {
            img2 ={AboutImg2}
            Heading= "About Me"
            Content="Passionate Front End Developer who loves simplicity in things and crafts beautiful user interfaces with love."
-           facebook= "/"
+           facebook= "##"
            intagram="//https://www.instagram.com/ankitpanchal.i/"
-           github = "/"
+           github = "https://github.com/Ankitpanchal15"
             />
         </>
     )
