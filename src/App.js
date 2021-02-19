@@ -1,6 +1,6 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
-import './App.css';
+import './style/style.scss';
 import Header from './Component/Header';
 import Footer from './Component/Footer';
 import {
@@ -28,6 +28,7 @@ function App() {
           <Route path="/expertises" component={Expertises} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} /> 
+        
           </Switch>
         
         <Footer />
