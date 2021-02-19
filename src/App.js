@@ -4,6 +4,7 @@ import './style/style.scss';
 import Header from './Component/Header';
 import Footer from './Component/Footer';
 import {
+  BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom';
@@ -20,6 +21,7 @@ function App() {
  
   return (
       <>
+     <BrowserRouter>
         <Header /> 
        
         <Switch>
@@ -32,6 +34,7 @@ function App() {
           </Switch>
         
         <Footer />
+    </BrowserRouter>
       </>
   )
 }

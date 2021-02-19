@@ -17,8 +17,9 @@ const About = (props) => {
                                     <p className="large">{props.Content}</p>
                                 </div>
                                 <div className="social-icon">
-                                    <NavLink to={props.facebook} target="_blank"  ><FacebookIcon /></NavLink>
+                                   
                                     <NavLink to={props.intagram} target="_blank"  ><InstagramIcon /></NavLink>
+                                    <NavLink to={props.facebook} target="_blank"  ><FacebookIcon /></NavLink>
                                     <NavLink to={props.github} target="_blank"  ><GitHubIcon /></NavLink>
                                     
                                 </div>
